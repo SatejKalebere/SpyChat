@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ussssser"
+    android:layout_width="match_parent"
+    android:background="@drawable/mystyle_realwhite"
+    android:layout_marginVertical="2dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/status_imageView_on"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/online_tick" />
+    <ImageView
+        android:id="@+id/status_imageView_off"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/offline_tick" />
+
+    <ImageView
+        android:id="@+id/imageViewUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/last_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUser"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/last_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:maxLines="1"
+
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/MsgTime"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUser" />
+
+    <TextView
+        android:id="@+id/MsgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/last_message" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

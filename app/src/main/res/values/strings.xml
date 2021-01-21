@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SpyChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Description">Introducing SpyChat... SpyChat is a End-To-End Encrypted Chat Application,Which will provide you real time chat rooms with all other users of SpyChat.You can create your account by just entering Username for your account, your email adress and set password for Spychat. At the time of login,SpyChat wiil ask you for your email and password for SpyChat. Key Features of SpyChat- 1.End-TO-END Encryption(E2EE) End-to-end encryption (E2EE) is a method of secure communication that prevents third-parties from accessing data while it\'s transferred from one end system or device to another. In E2EE, the data is encrypted on the sender\'s system or device and only the recipient is able to decrypt it. 2.Real time chat rooms 3.Online/Offline Indicator Shows you whether users in your chatlist are online or offline. 4.Sent-Seen Functionality Message you sent is seen by the receiver or not. 5.Distraction Free Environment</string>
+</resources>

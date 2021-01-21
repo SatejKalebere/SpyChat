@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_img"
+            android:visibility="gone"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_right"
+            android:text="Hello"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/show_msg"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info_message"
+
+            android:id="@+id/msg_seen_status"
+            android:layout_below="@id/show_msg"
+            android:textSize="8sp"
+            android:paddingHorizontal="5dp"
+            android:layout_alignParentEnd="true"
+            android:text="seen"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msg_seen_status"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
